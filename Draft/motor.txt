@@ -1,0 +1,17 @@
+PIC
+Mclr >> push button, pull up, 10K res
+c0, c3 >> 3 LEDs, 2 × 330ohm res
+b0 >> push button speed, pull down, 10K res
+b1, b2 >> swithces, up, down, pull down, 10K res
+b6, b7 >> sensor output, 3 pin headers for every sensor
+b4, b5 >> IC motor driver (IC L293D)
+portD >> 7 segment
+Voltage regulator
+L293D:
+1 >> PWM C2
+2, 7 >> B4, B5
+3, 6 >> MOTOR
+4, 5 >> GND
+8 >> 5V DC
+
+
